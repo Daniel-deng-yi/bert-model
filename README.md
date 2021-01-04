@@ -6,12 +6,12 @@ For each task, we selected the best fine-tuning hyperparameters from the lists b
     batch sizes: 8, 16, 32, 64, 128
     learning rates: 3e-4, 1e-4, 5e-5, 3e-5
 If you use these models, please cite the following paper:
-@article{turc2019,
-  title={Well-Read Students Learn Better: On the Importance of Pre-training Compact Models},
-  author={Turc, Iulia and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  journal={arXiv preprint arXiv:1908.08962v2 },
-  year={2019}
-}
+    @article{turc2019,
+    title={Well-Read Students Learn Better: On the Importance of Pre-training Compact Models},
+    author={Turc, Iulia and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+    journal={arXiv preprint arXiv:1908.08962v2 },
+    year={2019}
+    }
 This is a release of several new models which were the result of an improvement the pre-processing code.
 
 In the original pre-processing code, we randomly select WordPiece tokens to mask. For example:
